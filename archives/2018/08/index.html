@@ -32,6 +32,10 @@
       }
   </style>
 <link rel="shortcut icon" href="/source/favicon.ico">
+{% if theme.canvas_nest %}
+<script type="text/javascript"
+color="0,0,255" opacity='0.7' zIndex="-2" count="99" src="//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js"></script>
+{% endif %}
 </head>
 <body>
 <div id="menu-box"><a href="javascript:void(0)" id="menu" data-activates="slide-out" class="button-collapse menu" ><span class="nav-btn"></span></a></div>
@@ -85,7 +89,7 @@
 
 <ul class="dropdown-menu dropdown" >
     <li class="nav-dropdown-list">
-        <a class="archive-link" href="">August 2018<span class="archive-count">1</span></a>
+        <a class="archive-link" href="">August 2018<span class="archive-count">2</span></a>
     </li>
 </ul>
 <!--categories-->
@@ -126,11 +130,52 @@
 
 <div id="recent-posts">
   
-      <div class="recent-post-item lazy" style="background-color:#26A69A"  data-original="/images/random/vateral-19.png"  >
-        <a class="recent-post-link" href="/2018/08/18/hello-world/">
+      <div class="recent-post-item lazy" style="background-color:#26A69A"  data-original="/images/random/vateral-14.png"  >
+        <a class="recent-post-link" href="/en/2018/08/23/tensorflow-first/">
         <div class="post-hover">
           <!--title-->
-          <p class="post-title"><a href="/2018/08/18/hello-world/" >Hello World</a></p>
+          <p class="post-title"><a href="/en/2018/08/23/tensorflow-first/" >tensorflow_first</a></p>
+
+          <!--date-->
+          
+            <p class="post-time">Zurich &nbsp &nbsp 发布于:<time datetime="2018-08-23T12:10:48.000Z">
+              2018-08-23
+            </time>
+            </p>
+          
+
+          <!--tags-->
+
+          标签:
+            
+            暂无标签
+            
+          <!--分类-->
+
+          分类:
+            
+            暂无分类
+            
+
+          <!--excerpt-->
+          <div class="post-excerpt">
+            <p>
+              摘要：
+              
+                
+              
+            </p>
+          </div>
+          <div class="post-more"><a href="/en/2018/08/23/tensorflow-first/" >全文阅读</a></div>
+        </div>
+        </a>
+      </div>
+  
+      <div class="recent-post-item lazy" style="background-color:#26A69A"  data-original="/images/random/vateral-14.png"  >
+        <a class="recent-post-link" href="/en/2018/08/18/ReadMe/">
+        <div class="post-hover">
+          <!--title-->
+          <p class="post-title"><a href="/en/2018/08/18/ReadMe/" >My new Blog</a></p>
 
           <!--date-->
           
@@ -158,11 +203,12 @@
             <p>
               摘要：
               
-                Welcome to Hexo! This is your very first post. Check 
+                Due to my ignoration, my first hexo blog Zurichcape.github.io was lost, So I rebuild a blog and record my coding,programming life.
+
               
             </p>
           </div>
-          <div class="post-more"><a href="/2018/08/18/hello-world/" >全文阅读</a></div>
+          <div class="post-more"><a href="/en/2018/08/18/ReadMe/" >全文阅读</a></div>
         </div>
         </a>
       </div>
@@ -222,5 +268,7 @@
 
 <script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
+<!-- 页面点击小红心 -->
+<script type="text/javascript" src="../source/js/love.js"></script>
 </body>
 </html>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>A Little Programmer</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2018-08-23T12:10:48.167Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>Zurich</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>tensorflow_first</title>
+    <link href="http://yoursite.com/en/2018/08/23/tensorflow-first/"/>
+    <id>http://yoursite.com/en/2018/08/23/tensorflow-first/</id>
+    <published>2018-08-23T12:10:48.000Z</published>
+    <updated>2018-08-23T12:10:48.167Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>My new Blog</title>
+    <link href="http://yoursite.com/en/2018/08/18/ReadMe/"/>
+    <id>http://yoursite.com/en/2018/08/18/ReadMe/</id>
+    <published>2018-08-18T13:56:02.550Z</published>
+    <updated>2018-08-23T12:15:24.441Z</updated>
+    
+    <content type="html"><![CDATA[<p>Due to my ignoration, my first hexo blog Zurichcape.github.io was lost, So I rebuild a blog and record my coding,programming life.</p><h2 id="I-am-just-a-green-man-in-this-field"><a href="#I-am-just-a-green-man-in-this-field" class="headerlink" title="I am just a green man in this field."></a>I am just a green man in this field.</h2>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Due to my ignoration, my first hexo blog Zurichcape.github.io was lost, So I rebuild a blog and record my coding,programming life.&lt;/p&gt;
+&lt;h
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>

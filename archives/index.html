@@ -32,6 +32,10 @@
       }
   </style>
 <link rel="shortcut icon" href="/source/favicon.ico">
+{% if theme.canvas_nest %}
+<script type="text/javascript"
+color="0,0,255" opacity='0.7' zIndex="-2" count="99" src="//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js"></script>
+{% endif %}
 </head>
 <body>
 <div id="menu-box"><a href="javascript:void(0)" id="menu" data-activates="slide-out" class="button-collapse menu" ><span class="nav-btn"></span></a></div>
@@ -85,7 +89,7 @@
 
 <ul class="dropdown-menu dropdown" >
     <li class="nav-dropdown-list">
-        <a class="archive-link" href="2018/08/">August 2018<span class="archive-count">1</span></a>
+        <a class="archive-link" href="2018/08/">August 2018<span class="archive-count">2</span></a>
     </li>
 </ul>
 <!--categories-->
@@ -175,5 +179,7 @@
 
 <script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
+<!-- 页面点击小红心 -->
+<script type="text/javascript" src="../source/js/love.js"></script>
 </body>
 </html>
