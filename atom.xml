@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://iperoder.github.io/"/>
-  <updated>2018-12-01T09:33:23.781Z</updated>
+  <updated>2018-12-01T09:34:09.996Z</updated>
   <id>http://iperoder.github.io/</id>
   
   <author>
@@ -21,21 +21,21 @@
     <link href="http://iperoder.github.io/en/2018/12/01/programm-normalization-C/"/>
     <id>http://iperoder.github.io/en/2018/12/01/programm-normalization-C/</id>
     <published>2018-12-01T09:25:54.000Z</published>
-    <updated>2018-12-01T09:33:23.781Z</updated>
+    <updated>2018-12-01T09:34:09.996Z</updated>
     
-    <content type="html"><![CDATA[<pre><code>** 类级单位的命名 **姓名|年龄|性别--|:--:|--:张骋|男|20田梦影|女|20</code></pre>]]></content>
+    <content type="html"><![CDATA[<p><strong> 类级单位的命名 </strong></p><table><thead><tr><th>姓名</th><th style="text-align:center">年龄</th><th style="text-align:right">性别</th></tr></thead><tbody><tr><td>张骋</td><td style="text-align:center">男</td><td style="text-align:right">20</td></tr><tr><td>田梦影</td><td style="text-align:center">女</td><td style="text-align:right">20</td></tr></tbody></table>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;pre&gt;&lt;code&gt;** 类级单位的命名 **
-
-姓名|年龄|性别
---|:--:|--:
-张骋|男|20
-田梦影|女|20
-&lt;/code&gt;&lt;/pre&gt;
+        &lt;p&gt;&lt;strong&gt; 类级单位的命名 &lt;/strong&gt;&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;姓名&lt;/th&gt;
+&lt;th style=&quot;text-align:center&quot;&gt;年龄&lt;/th&gt;
+&lt;th style=&quot;text-align:right&quot;&gt;性别&lt;/th
       
     
     </summary>
